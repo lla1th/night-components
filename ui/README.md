@@ -1,7 +1,7 @@
-# Component NightButton and Directive v-n-
+# Component NightButton and Directive n-
 
-[![npm](https://img.shields.io/npm/v/quasar-ui-night-components-quasar.svg?label=quasar-ui-night-components-quasar)](https://www.npmjs.com/package/quasar-ui-night-components-quasar)
-[![npm](https://img.shields.io/npm/dt/quasar-ui-night-components-quasar.svg)](https://www.npmjs.com/package/quasar-ui-night-components-quasar)
+[![npm](https://img.shields.io/npm/v/night-components-quasar.svg?label=night-components-quasar)](https://www.npmjs.com/package/night-components-quasar)
+[![npm](https://img.shields.io/npm/dt/night-components-quasar.svg)](https://www.npmjs.com/package/night-components-quasar)
 
 **Compatible with Quasar UI v2 and Vue 3**.
 
@@ -11,7 +11,7 @@
 
 
 
-# Directive v-n-
+# Directive n-
 > Short description of the directive
 
 
@@ -29,8 +29,8 @@ Create and register a boot file:
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-night-components-quasar'
-import 'quasar-ui-night-components-quasar/dist/index.css'
+import Plugin from 'night-components-quasar'
+import 'night-components-quasar/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -38,10 +38,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-night-components-quasar/dist/index.css"></style>
+<style src="night-components-quasar/dist/index.css"></style>
 
 <script>
-import { Component as NightButton, Directive } from 'quasar-ui-night-components-quasar'
+import { Component as NightButton, Directive } from 'night-components-quasar'
 
 export default {
   
@@ -62,8 +62,8 @@ export default {
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-night-components-quasar'
-import 'quasar-ui-night-components-quasar/dist/index.css'
+import Plugin from 'night-components-quasar'
+import 'night-components-quasar/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -71,10 +71,10 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-night-components-quasar/dist/index.css"></style>
+<style src="night-components-quasar/dist/index.css"></style>
 
 <script>
-import { Component as NightButton, Directive } from 'quasar-ui-night-components-quasar'
+import { Component as NightButton, Directive } from 'night-components-quasar'
 
 export default {
   
@@ -100,16 +100,16 @@ Add the following tag(s) after the Quasar ones:
 ```html
 <head>
   <!-- AFTER the Quasar stylesheet tags: -->
-  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-night-components-quasar/dist/index.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/night-components-quasar/dist/index.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-night-components-quasar/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/night-components-quasar/dist/index.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/quasar-ui-night-components-quasar/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/night-components-quasar/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
 ```
 
 # Setup

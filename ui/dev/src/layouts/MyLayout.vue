@@ -11,7 +11,7 @@
         />
 
         <q-toolbar-title>
-          quasar-ui-night-components-quasar v{{ version }}
+          night-components-quasar v{{ version }}
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>

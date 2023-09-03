@@ -1,13 +1,13 @@
 import { h } from 'vue'
-import { QBadge } from 'quasar'
+import {QBtn} from 'quasar'
 
 export default {
   name: 'NightButton',
 
   setup () {
-    return () => h(QBadge, {
+    return () => h(QBtn, {
       class: 'NightButton',
-      label: 'NightButton'
+      label: 'BUTTON'
     })
   }
 }

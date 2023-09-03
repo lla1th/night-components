@@ -1,13 +1,13 @@
 <template>
   <q-page padding>
-    
+
+    <!--    <div n- class="directive-target">-->
+    <!--      x-->
+    <!--    </div>-->
+
+
     <NightButton />
-    
-    
-    <div v-n- class="directive-target">
-      x
-    </div>
-    
+
   </q-page>
 </template>
 

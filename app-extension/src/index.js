@@ -14,7 +14,7 @@ function extendConf (conf) {
   conf.build.transpileDependencies.push(/quasar-app-extension-night-components-quasar[\\/]src/)
 
   // make sure the stylesheet goes through webpack to avoid SSR issues
-  conf.css.push('~quasar-ui-night-components-quasar/src/index.sass')
+  conf.css.push('~night-components-quasar/src/index.sass')
 }
 
 module.exports = function (api) {
@@ -32,10 +32,10 @@ module.exports = function (api) {
 
 
   // Uncomment the line below if you provide a JSON API for your component
-  // api.registerDescribeApi('NightButton', '~quasar-ui-night-components-quasar/src/components/NightButton.json')
+  // api.registerDescribeApi('NightButton', '~night-components-quasar/src/components/NightButton.json')
 
   // Uncomment the line below if you provide a JSON API for your directive
-  // api.registerDescribeApi('n-', '~quasar-ui-night-components-quasar/src/directives/n-.json')
+  // api.registerDescribeApi('n-', '~night-components-quasar/src/directives/n-.json')
 
 
   // We extend /quasar.conf.js
